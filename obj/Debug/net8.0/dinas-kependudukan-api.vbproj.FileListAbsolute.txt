@@ -1,0 +1,7 @@
+E:\oracle\dinas-kependudukan-api\obj\Debug\net8.0\dinas-kependudukan-api.vbproj.AssemblyReference.cache
+E:\oracle\dinas-kependudukan-api\obj\Debug\net8.0\rpswa.dswa.cache.json
+E:\oracle\dinas-kependudukan-api\obj\Debug\net8.0\dinas-kependudukan-api.GeneratedMSBuildEditorConfig.editorconfig
+E:\oracle\dinas-kependudukan-api\obj\Debug\net8.0\dinas-kependudukan-api.AssemblyInfoInputs.cache
+E:\oracle\dinas-kependudukan-api\obj\Debug\net8.0\dinas-kependudukan-api.AssemblyInfo.vb
+E:\oracle\dinas-kependudukan-api\obj\Debug\net8.0\dinas-kependudukan-api.vbproj.CoreCompileInputs.cache
+E:\oracle\dinas-kependudukan-api\obj\Debug\net8.0\dinas-kependudukan-api.MvcApplicationPartsAssemblyInfo.cache
