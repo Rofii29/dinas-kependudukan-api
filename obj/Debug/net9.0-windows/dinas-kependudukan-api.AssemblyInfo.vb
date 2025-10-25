@@ -15,7 +15,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("dinas-kependudukan-api"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fdf3a1c69ad193818df1b1730254081837b1794"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("dinas-kependudukan-api"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("dinas-kependudukan-api"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

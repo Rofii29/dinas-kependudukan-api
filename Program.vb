@@ -1,5 +1,4 @@
-' File: Program.vb (Versi Final yang Sudah Diperbaiki)
-
+' File: Program.vb (Versi Final dengan CORS)
 Imports Microsoft.AspNetCore.Builder
 Imports Microsoft.Extensions.DependencyInjection
 Imports Microsoft.Extensions.Hosting
@@ -8,16 +7,20 @@ Public Module Program
     Public Sub Main(args As String())
         Dim builder = WebApplication.CreateBuilder(args)
 
-        ' Menambahkan layanan untuk Controller API
-        builder.Services.AddControllers()
+        ' Menambahkan layanan CORS
+        builder.Services.AddCors(Sub(options)
+            options.AddDefaultPolicy(Sub(policy)
+                policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()
+            End Sub)
+        End Sub)
 
-        ' Membangun aplikasi
+        builder.Services.AddControllers()
         Dim app = builder.Build()
 
-        ' Mengarahkan request ke Controller
+        ' Menggunakan layanan CORS
+        app.UseCors()
+        
         app.MapControllers()
-
-        ' Menjalankan aplikasi
         app.Run()
     End Sub
 End Module
